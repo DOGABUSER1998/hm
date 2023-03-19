@@ -137,4 +137,4 @@ print("IT IS MEGALADON")
 									end);
 									return nil;
 								end;
-								RunStompFx(StompEffect, vCharacter.HumanoidRootPart, vPlayer, Player, (0))
+								RunStompFx(getgenv().StompEffect, getgenv().vCharHRP, getgenv().vPlayer, getgenv().Player, (0))
